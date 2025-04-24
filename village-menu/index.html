@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head><link rel="stylesheet" href="soup.html">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قائمة مطعم كورال</title>
+  link <html><soup class="html"></soup></html>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: url('bg3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f5f5f5;
+      background-blend-mode: overlay;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.385);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      margin-bottom: 30px;
+    }
+
+    .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 15px;
+    }
+
+    .menu-sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0);
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      transition: 0.3s;
+      cursor: pointer;
+      width: 280px;
+    }
+
+    .section:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: scale(1.05);
+    }
+
+    .section img {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 15px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <!-- الجولة الافتراضية -->
+    <div class="iframe-container">
+      <iframe src="https://my.matterport.com/show/?m=tC4RfesELZw" allowfullscreen></iframe>
+    </div>
+
+    <!-- الأقسام الرئيسية -->
+    <div class="menu-sections">
+      <a href="aboutus .html" class="section">
+        <img src="coral.jpg" alt="نبذة عن كورال">
+        <div>نبذة عن كورال</div>
+
+      <a href="soup.html" class="section">
+        <img src="soup.jpg" alt="الشوربات">
+        <div>الشوربات</div><a href="soup.html" class="section">
+          <img src="soup.jpg" alt="الشوربات">
+          <div>الشوربات</div>
+      
+      <a href="salad.html" class="section">
+        <img src="salad.jpg" alt="السلطات">
+        <div>السلطات</div>
+      </a>
+      <a href="cold.html" class="section">
+        <img src="appecold.jpg" alt="مقبلات باردة">
+        <div>المقبلات الباردة</div>
+      </a>
+      <a href="hot.html" class="section">
+        <img src="appehot.jpg" alt="مقبلات حارة">
+        <div>المقبلات الحارة</div>
+      </a>
+      <a href="eastern.html" class="section">
+        <img src="estren.jpg" alt="أطباق شرقية">
+        <div>الأطباق الشرقية</div>
+      </a>
+      <a href="western.html" class="section">
+        <img src="westren.jpg" alt="أطباق غربية">
+        <div>الأطباق الغربية</div>
+      </a>
+      <a href="special.html" class="section">
+        <img src="dish.jpg" alt="أطباق كورال">
+        <div>الأطباق الخاصة بكورال</div>
+      </a>
+      <a href="drinks.html" class="section">
+        <img src="drink.jpg" alt="المشروبات">
+        <div>المشروبات</div>
+      </a>
+      <a href="desserts.html" class="section">
+        <img src="desert.jpg" alt="الحلويات">
+        <div>الحلويات</div>
+      </a>
+      <a href="arakeel.html" class="section">
+        <img src="hooka.jpg" alt="الأراكيل">
+        <div>الأراكيل</div>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

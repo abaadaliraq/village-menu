@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>قسم الشوربات - كورال</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: url('bg3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      min-height: 100vh;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 36px;
+    }
+
+    .soup-list {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .soup-item {
+      display: flex;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 12px;
+      gap: 20px;
+    }
+
+    .soup-item img {
+      width: 100px;
+      height: 100px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .soup-details {
+      flex: 1;
+    }
+
+    .soup-name {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .soup-price {
+      font-size: 16px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>الشوربات</h1>
+    <div class="soup-list">
+      <div class="soup-item">
+        <img src="soup.jpg" alt="شوربة عدس">
+        <div class="soup-details">
+          <div class="soup-name">شوربة عدس</div>
+          <div class="soup-price">4000 د.ع</div>
+        </div>
+      </div>
+      <div class="soup-item">
+        <img src="soup.jpg" alt="شوربة فطر بالكريمة">
+        <div class="soup-details">
+          <div class="soup-name">شوربة فطر بالكريمة</div>
+          <div class="soup-price">5000 د.ع</div>
+        </div>
+      </div>
+      <div class="soup-item">
+        <img src="soup.jpg" alt="شوربة دجاج">
+        <div class="soup-details">
+          <div class="soup-name">شوربة دجاج</div>
+          <div class="soup-price">4500 د.ع</div>
+        </div>
+      </div>
+      <div class="soup-item">
+        <img src="soup.jpg" alt="شوربة خضار">
+        <div class="soup-details">
+          <div class="soup-name">شوربة خضار</div>
+          <div class="soup-price">4000 د.ع</div>
+        </div>
+      </div>
+      <div class="soup-item">
+        <img src="soup.jpg" alt="شوربة كورال">
+        <div class="soup-details">
+          <div class="soup-name">شوربة كورال</div>
+          <div class="soup-price">6000 د.ع</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
